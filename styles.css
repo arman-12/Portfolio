@@ -1,0 +1,17 @@
+/* Custom styles for your portfolio */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    background: url('path-to-background-image.jpg') no-repeat center center/cover;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+}

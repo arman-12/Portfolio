@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Md. Arman Hossen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center bg-primary text-white text-center" style="height: 100vh;">
+        <div class="container">
+            <h1>Md. Arman Hossen</h1>
+            <p class="lead">Software Engineer</p>
+            <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="path-to-your-photo.jpg" alt="Your Name" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+                <p>I am Md. Arman Hossen, an undergraduate computer science student at a public university in Bangladesh. I enjoy competitive programming and solving problems, as well as working on unique projects.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container py-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path-to-project-thumbnail.jpg" class="card-img-top" alt="Project Name">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name</h5>
+                        <p class="card-text">Brief description of the project.</p>
+                        <a href="link-to-project" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container py-5">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Skill Name</h5>
+                        <p class="card-text">Skill description or proficiency level.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other skills -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container py-5">
+        <h2>Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#projects">Projects</a></li>
+                <li class="list-inline-item"><a href="#skills">Skills</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <p>&copy; 2024 Your Name</p>
+            <!-- Add social media icons here -->
+        </div>
+    </footer>
+
+    <!-- jQuery (required by Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Popper.js (required by Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgXMB2Pbsm05cKfR4gpLr7aASzl7P3D7b3pdEXvFnhz5pfFZBjU" crossorigin="anonymous"></script>
+    <!-- Your Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
